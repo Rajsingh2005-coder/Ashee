@@ -1,6 +1,9 @@
 import { useState } from "react";
 import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
 import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
+import lala1 from "./assets/lala1.jpeg";
+import lala2 from "./assets/lala2.jpeg";
+import image1 from "./assets/image1.jpeg";
 import MusicPlayer from "./components/MusicPlayer";
 import LoveLetter from "./components/LoveLetter";
 import ImageCard from "./components/ImageCard";
@@ -85,20 +88,20 @@ export default function Page() {
           <LoveLetter />
            <div className="flex flex-wrap justify-center gap-6 mt-8 z-10 w-full px-4">
              <ImageCard 
-               src="src\assets\lala2.jpeg" 
+               src={lala2} 
                alt="Us" 
                caption="Us Forever ❤️" 
                rotate={-5}
              />
              <ImageCard 
-               src="src\assets\lala1.jpeg" 
+               src={lala1} 
                alt="Memories" 
                caption="Making Memories ✨" 
                rotate={5}
              />
 
              <ImageCard 
-               src="src\assets\image1.jpeg" 
+               src={image1} 
                alt="Memories" 
                caption="Us Forever ✨" 
                rotate={-5}
