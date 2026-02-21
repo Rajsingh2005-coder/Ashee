@@ -1,0 +1,10 @@
+# Auto-detect text files and normalize line endings in the repository
+# This helps prevent "LF will be replaced by CRLF" warnings on Windows
+* text=auto
+
+# Ensure common source file types are treated as text
+*.js     text
+*.jsx    text
+*.css    text
+*.html   text
+*.json   text
