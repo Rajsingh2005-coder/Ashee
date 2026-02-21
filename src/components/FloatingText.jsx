@@ -16,7 +16,7 @@ const FloatingText = () => {
             transform: `rotate(${Math.random() * 360}deg)`
           }}
         >
-          Abhishek ❤️
+          Abhi ❤️
           Aas_hee_
         </div>
       ))}

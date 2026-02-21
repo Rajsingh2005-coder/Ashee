@@ -1,8 +1,8 @@
 import { useState } from "react";
 import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
 import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
-import lala1 from "./assets/lala1.jpeg";
-import lala2 from "./assets/lala2.jpeg";
+// import lala1 from "./assets/lala1.jpeg";
+// import lala2 from "./assets/lala2.jpeg";
 import image1 from "./assets/image1.jpeg";
 import MusicPlayer from "./components/MusicPlayer";
 import LoveLetter from "./components/LoveLetter";
